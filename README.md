@@ -5,7 +5,6 @@
 This project is a web application that allows users to execute a chain of 5 mathematical functions, with the output (y) of each function serving as the input (x) for the next. The application is built using React and TypeScript, with custom CSS for styling.
 
 ## Project Structure
-
 function-chain-calculator
 ├── public
 │   ├── index.html
