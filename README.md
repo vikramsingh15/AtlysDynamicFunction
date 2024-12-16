@@ -36,7 +36,7 @@ function-chain-calculator
 
 ### FunctionChain.tsx
 
-- State: `initialValue` (number), `equations` (array of strings)
+- State: `initialValue` (number), `results` (Object of Object)
 - Renders the chain of `FunctionCard` components
 - Manages the calculation of the final output by chaining the functions
 
@@ -45,6 +45,9 @@ function-chain-calculator
 - Props: `value` (number), `onChange` (function)
 - Renders an input field for the initial value
 - Calls `onChange` when the input value changes
+
+### OutputField.tsx
+- Renders overall result
 
 ## Styles
 
